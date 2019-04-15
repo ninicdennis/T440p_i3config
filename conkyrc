@@ -1,0 +1,11 @@
+background no
+out_to_x no
+out_to_console yes
+update_interval 1
+total_run_times 0
+use_spacer none
+
+TEXT
+Hello, ${exec whoami}@${exec hostname} | Date: ${time %a %b %d} | Time: ${time %H:%M} | Battery: ${battery_bar} (${battery_percent}%)
+
+
